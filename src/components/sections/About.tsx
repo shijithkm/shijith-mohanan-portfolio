@@ -25,7 +25,7 @@ export default function About() {
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                     {/* Profile Image Placeholder */}
                     <AnimatedSection delay={0.1}>
-                        <div className="relative mx-auto w-full max-w-md">
+                        <div className="relative mx-auto w-full max-w-md overflow-hidden">
                             <div className="glass card-glow overflow-hidden rounded-2xl p-1">
                                 <div className="overflow-hidden rounded-xl">
                                     <Image
